@@ -37,7 +37,7 @@ RUN apt-get update -qy \
 
 USER nextflow
 
-ENV PATH /home/nextflow/.linuxbrew/bin:$PATH
+ENV PATH /opt/ngs-tools/bin:/home/nextflow/.linuxbrew/bin:$PATH
 
 ENV NXF_HOME /mnt/common/nextflow/.nextflow
 ENV NXF_WORK /mnt/common/nextflow
