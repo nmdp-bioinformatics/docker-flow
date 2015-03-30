@@ -39,10 +39,10 @@ USER nextflow
 
 ENV PATH /opt/ngs-tools/bin:/home/nextflow/.linuxbrew/bin:$PATH
 
-ENV NXF_HOME /mnt/common/nextflow/.nextflow
-ENV NXF_WORK /mnt/common/nextflow
+ENV NXF_HOME /mnt/nextflow/.nextflow
+ENV NXF_WORK /mnt/nextflow
 
-VOLUME /mnt/common/nextflow
+VOLUME /mnt/nextflow
 
 WORKDIR /mnt/common/nextflow
 
