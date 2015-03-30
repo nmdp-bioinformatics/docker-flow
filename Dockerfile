@@ -1,8 +1,8 @@
 FROM ubuntu:14.04
 MAINTAINER Erik Pearson <epearson@nmdp.org>
 
-RUN groupadd -g 1043 nextflow \
-  && useradd -m -u 1043 -g 1043 nextflow
+RUN groupadd -g 1044 nextflow \
+  && useradd -m -u 1044 -g 1044 nextflow
 
 # ssake 3.8.2 (3d01134002ed4127c4730053524c7f983ef836bd)
 # bwa 0.7.12 (3d01134002ed4127c4730053524c7f983ef836bd)
